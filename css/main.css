@@ -111,6 +111,18 @@ p {
 
 
 
+.headshot {
+    padding-top: 3rem;
+}
+
+.headshot-img {
+    height: 10rem;
+    border-radius: 48%;
+    margin-left: 5rem;
+}
+
+
+
 @media only screen and (min-width: 1200px) {
     /* Desktop Styles */
 
