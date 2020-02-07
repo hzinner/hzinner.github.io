@@ -12,16 +12,21 @@ body {
     background-color: #fff;
 }
 
+
+
+/* Mobile Styles */
+
 h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 1.75rem;
 }
 
+
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .header {
@@ -31,7 +36,8 @@ p {
     flex-flow: row wrap;
     background: url('../img/header-background-2.png') center no-repeat;
     background-size: cover;
-}   
+}  
+
 
 .header__text-box {
     display: flex;
@@ -39,6 +45,7 @@ p {
     align-items: center;
     text-align: center;
 }
+
 
 @keyframes moveInLeft {
     0% {
@@ -69,6 +76,56 @@ p {
     }
 }
 
+
+.heading-primary {
+    font-size: 5rem;
+    color: #ed825b;
+}
+
+.heading-primary-main {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub {
+    display: block;
+    letter-spacing: 1rem;
+    padding-left: 10rem;
+
+    animation: moveInRight 1s ease-out;
+}
+
+.section-about {
+    height: 65rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/about-background-2.png') center no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    /* Desktop Styles */
+
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
 
 .heading-primary {
     font-size: 8rem;
@@ -181,4 +238,7 @@ p {
 
 .footer ul li:not(:last-child) {
     margin-right: 3rem;
+}
+
+
 }
